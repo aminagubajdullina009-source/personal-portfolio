@@ -1,24 +1,39 @@
-# Fundamentals of Web Development Final Project
+# EPAM Front-End Final Project
 
-## Task Requirements
+## About
 
-1. Please, place all your `SCSS` styles in `src/styles` folder.
-2. The `package.json` file is already created, please don't delete NPM scripts that are already there. This file should look like this when you initiate the project:
+This project was completed as part of the EPAM School Software Development Program.
 
-   ```json
-   {
-      "scripts" {
-         "test": "jest --reporters=jest-junit",
-         "build": "echo \"Dummy build script for Autocode\""
-      }
-   }
-   ```
+The goal was to build a responsive web application using modern front-end development practices, including HTML, SCSS, JavaScript, BEM methodology, responsive design, and project automation tools.
 
-   Also, there are some preinstalled service dependencies that are required for automatic verification of your task, please don't remove them either.
+## Technologies
 
-3. Your main HTML page should be named `index.html` and be placed `src/index.html`.
-4. Root files for regular and mobile styles have to have names `style.scss` and `mobile.scss` and be placed inside `src/styles` folder. These names are used for automatic checks.
-5. All the result CSS files have to be in `dist` folder.
-   - result styles should be in `src/dist/style.css`
-   - result minified styles should be in `src/dist/style.min.css`
+- HTML5
+- CSS3
+- SCSS
+- JavaScript
+- BEM Methodology
+- Git & GitHub
+- NPM
+- ESLint
+- Prettier
+- Jest
+
+## What I Learned
+
+- Responsive web development
+- Component-based styling with BEM
+- SCSS architecture
+- Git version control
+- Project structure and automation
+- Front-end best practices
+
+## Education
+
+- IT Park University — Software Engineering
+- EPAM School — Software Development Program
+
+## Future Goals
+
+I am currently focused on becoming an iOS Developer and creating products that combine technology, design, and positive social impact.
  
