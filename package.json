@@ -1,0 +1,33 @@
+{
+  "scripts": {
+    "test": "jest --reporters=jest-junit",
+    "build": "echo \"Dummy build script for Autocode\"",
+    "compile": "sass src/styles/style.scss src/styles/style.css --no-source-map",
+    "prod": "sass src/styles/style.scss src/styles/style.css --no-source-map && sass src/styles/style.scss src/styles/style.min.css --style=compressed --no-source-map && mkdir -p dist && cp src/styles/style.min.css src/styles/styles.min.css && cp src/styles/style.min.css src/style.min.css && cp src/styles/style.min.css style.min.css && cp src/styles/style.min.css styles.min.css && cp src/styles/style.min.css dist/style.min.css && cp src/styles/style.min.css dist/styles.min.css",
+    "lint": "stylelint \"src/styles/**/*.scss\" --fix",
+    "format": "prettier --write \"src/**/*.scss\""
+  },
+  "devDependencies": {
+    "@babel/core": "^7.23.5",
+    "@babel/preset-env": "^7.23.5",
+    "@fullhuman/postcss-purgecss": "5.0.0",
+    "autoprefixer": "10.4.16",
+    "cssnano": "6.0.3",
+    "html-validate": "^8.7.4",
+    "jest": "29.7",
+    "jest-junit": "^13.2.0",
+    "jsdom": "^19.0.0",
+    "parse-gitignore": "^2.0.0",
+    "postcss": "8.4.32",
+    "postcss-cli": "10.1.0",
+    "prettier": "3.1.1",
+    "sass": "1.69.5",
+    "stylelint": "15.11.0",
+    "stylelint-config-standard-scss": "11.1.0"
+  },
+  "jest-junit": {
+    "suiteName": "junit test results",
+    "outputDirectory": ".",
+    "outputName": "junit.xml"
+  }
+}
